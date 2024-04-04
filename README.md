@@ -1,26 +1,20 @@
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
 Operating systems Lab exercise
 
-
 # AIM:
 To write C Program that uses Linux Process API - fork(), wait(), exec()
 
 # DESIGN STEPS:
-
 ### Step 1:
-
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
 
 ### Step 2:
-
 Write the C Program using Linux Process API - fork(), wait(), exec()
 
 ### Step 3:
-
 Test the C Program for the desired output. 
 
 # PROGRAM:
-
 ## C Program to print process ID and parent Process ID using Linux API system calls
 ```
 #include <stdio.h>
@@ -43,15 +37,9 @@ int main(void)
 	return 0; }
 
 ```
-
-
 ## OUTPUT
 
-
-
 ![img](https://github.com/Gchethankumar/Linux-Process-API-fork-wait-exec/assets/118348224/30005ac9-5f90-4666-a973-495cd700efc1)
-
-
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 ```
@@ -70,14 +58,9 @@ sleep(100);
 exit(0);} 
 }
 ```
-
-
 ## OUTPUT
 
-
 ![img2](https://github.com/Gchethankumar/Linux-Process-API-fork-wait-exec/assets/118348224/bcf7ec6b-7b75-474f-b83e-d7d906208a96)
-
-
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 ```
@@ -93,14 +76,9 @@ int main()
 }
 
 ```
-
-
 ## OUTPUT
 
-
 ![img3](https://github.com/Gchethankumar/Linux-Process-API-fork-wait-exec/assets/118348224/d013f3e4-44e3-4eb7-89e8-cd0dbc0ba15c)
-
-
 
 # RESULT:
 The programs are executed successfully.
